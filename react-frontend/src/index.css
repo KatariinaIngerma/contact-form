@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Reckless Neue";
+  src: url('../public/RecklessNeue-Light.woff2');
+  
+}
+@font-face {
+  font-family:  "Denim Regular";
+  src: url('../public/Denim-Regular.woff2');
+}
