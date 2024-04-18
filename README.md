@@ -46,5 +46,12 @@ This will start a server and provide you with a URL (usually http://localhost:30
 * Assets: I utilized SVG files and opted for woff2 font files, as they are better for optimization purposes.
 * TailwindCSS: This framework produces smaller CSS files compared to other approaches, making it beneficial for bundle size reduction.
 * To further optimize your build, you've incorporated the chunkSplitPlugin from the vite-plugin-chunk-split package. This plugin helps improve chunking by splitting large chunks into smaller ones, which can lead to better performance and reduced bundle size.
+
+# Code Structure and Implementation
+The code follows a modular structure, with components organized into separate files within the components directory.
+
+### React Components
+* App: The main component responsible for the layout and functionality of the contact form. I did not add state management, because it is a dummy form.
+* Heading, TextField, Button, Checkbox: These are reusable components responsible for rendering various parts of the contact form UI, such as headings, input fields, buttons, and checkboxes.
   
 
