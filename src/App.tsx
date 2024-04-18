@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
 import "./App.css";
 import Heading from "./components/Heading";
 import TextField from "./components/TextField";
@@ -65,12 +65,14 @@ function App() {
                 name="jobTitle"
                 placeholder="Job Title"
               />
-              <ReactFlagsSelect
-                placeholder={"Country"}
-                id={"country"}
-                selected={selected}
-                onSelect={(code) => setSelected(code)} 
+              <Suspense fallback={<div>Loading...</div>}>
+                <ReactFlagsSelect
+                  placeholder={"Country"}
+                  id={"country"}
+                  selected={selected}
+                  onSelect={(code) => setSelected(code)}
                 />
+              </Suspense>
               <TextField
                 name="companyName"
                 placeholder={"Company Name"}
