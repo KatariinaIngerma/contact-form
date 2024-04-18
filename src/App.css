@@ -1,18 +1,23 @@
 html {
   background-color: #a7d0d8;
 }
-
 .big-text-color {
-  color: #140923 ;
+  color: #140A24;
 }
-
+.link-text-blue {
+  color: #219DFB;
+}
 .custom-blue {
   background-color: #a7d0d8;
+}
+.custom-gray {
+  background-color: #d0d5dd;
 }
 .reckless {
   font-family: 'Reckless Neue';
 }
-
 .custom-select option {
-  color: black; /* Set the color of the options */
+  color: black; 
 }
+
+

@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 interface CheckboxProps {
   id: string;
-  label: string;
+  label: ReactNode; 
 }
 
 const Checkbox: React.FC<CheckboxProps> = ({ id, label }) => {
