@@ -5,6 +5,7 @@ This is a a React application that displays a dummy contact form.
 * React with TypeScript.
 * TailwindCSS - I used TailwindCSS to simplify style. 
 * Vite - build tool.
+* Prettier - code formatting. 
 
 # Prerequisites
 Make sure you have Node.js and npm installed.
